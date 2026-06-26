@@ -21,7 +21,7 @@ nav{
 .text-primary{
     color: crimson;
 }
-nav ul li{
+li{
     list-style: none;
     margin-right: 50px;
 }
@@ -161,6 +161,12 @@ footer{
 .footer-column{
     width: 50%;
 }
+footer a{
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: tomato;
+}
 footer input[type="text"], footer input[type="email"], footer textarea{
     height: 64px;
     border-radius: 5px;
@@ -170,6 +176,22 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     padding: 10px 18px;
     margin-bottom: 24px;
     border: none;
+}
+
+.position{
+    color: darkslategrey;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: red;
+}
+.line:hover {
+    text-decoration: underline;
+    color: black;
 }
 @media screen and (max-width: 576px){
     .skills-container,nav, nav > ul, .resume-container,.banner, footer, .about-items{
@@ -201,4 +223,20 @@ footer input[type="text"], footer input[type="email"], footer textarea{
         width: calc(100% - 40px);
     }
 
+}
+.page-info{
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #757575;
+    background-color: #FFF8F3;
+}
+.page-info p{
+    margin: 5px 0;
+    word-break: break-all;
+}
+.page-info .copyright{
+    font-weight: 600;
+    color: #181818;
+    margin-bottom: 12px;
 }
