@@ -186,6 +186,10 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     margin-top: 5px;
 }
 
+.position li{
+    margin-bottom: 20px;
+}
+
 button:hover {
     background-color: red;
 }
